@@ -1,0 +1,99 @@
+body {
+	background-color: white;
+	font-family: "Courier New", Courier, monospace;
+	border: 1px solid black;
+	width: 80%;
+	margin: 20px auto;}
+img.logo {
+	width:200px;
+	margin: 10px auto;}
+nav ul{
+	text-align: center;
+	list-style-type: none;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;}
+nav ul li {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 30px 30px;}
+nav li a {
+	color: black;}
+nav li a:hover, nav li a.current {
+	color: 	#40E0D0;}
+img.align-center{
+	margin: 50px auto;
+	display: block;}
+img.portfolio{
+	width:100%;
+	margin: 0;
+	padding: 0;
+	}
+.social img{
+	width: 40px;
+	height: 40px;}
+.about{
+	margin: 30px auto;
+	padding: 20px;
+	text-align: justify;}
+img.me{
+	border-radius: 25px;
+	float:left;
+	margin: 10px 30px;
+	border:1px solid black;}
+figure{
+	display: block;
+	margin: 30px auto;
+	padding: 30px;
+	text-align: center;
+	border: 1px solid black;}
+figcaption{
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px;}
+img.project{
+	width: 100%;
+}
+.projects p {
+	text-align: center;
+	font-size: 3em;
+	margin-top: 50px;}
+.contact {
+	text-align: center;
+	margin: 50px 30px;
+	padding: 10px;}
+img.telephone{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+aside{
+	width:100px;
+	float:right;
+	position: fixed;
+	top: 40px;
+	right: 40px;}
+aside li{
+	list-style-type: none;
+	text-decoration: none;
+	margin: 10px 10px;
+	padding: 10px 10px;}
+aside li img{
+	width: 40px;
+	height: 40px;}
+@media only screen and (max-width: 690px) {
+	nav ul li{
+		display: block;
+		margin: 0;
+	}
+	.about{
+		text-align: left;
+	}
+}
+@media only screen and (max-width: 900px) {
+	aside {
+		width: 50px;
+		margin: 5px;
+		padding: 5px;
+	}
+}
